@@ -1,3 +1,4 @@
+import React from 'react'
 class NavDropdown extends React.Component {
   constructor(props) {
     super(props);
@@ -27,3 +28,5 @@ class NavDropdown extends React.Component {
     )
   }
 }
+
+export default NavDropdown
