@@ -1,7 +1,7 @@
 import React from 'react'
-const Link = props => {
+const NavItem = props => {
   const pageURI = window.location.pathname+window.location.search
-  const liClassName = (props.path === pageURI) ? "nav-link active" : "nav-link";
+  const liClassName = (props.path === pageURI) ? "nav-item active" : "nav-item";
   const aClassName = props.disabled ? "nav-link disabled" : "nav-link"
   return (
     <li className={liClassName}>
@@ -13,4 +13,4 @@ const Link = props => {
   );
 }
 
-export default Link
+export default NavItem

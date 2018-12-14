@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from '../pages/Home';
+import NavItem from './ActiveNavItem'
 // import About from './components/About';
 import Contact from '../pages/Contact';
 
@@ -38,11 +39,11 @@ class Nav extends Component {
       </button>
       <div className={this.state.toggleShow === true ? "collapse navbar-collapse show" : "collapse navbar-collapse" } id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-          <ul className="navbar-nav mr-auto">
-            <li className ><Link to={'/'} className="nav-link"> Home </Link></li>
-            <li><Link to={'/contact'} className="nav-link">Contact</Link></li>
+          
+          <NavItem path="/" name="Home">  <li className ><Link to={'/'} className="nav-link"> Home </Link></li> </NavItem>
+           <NavItem path="/contact" name="Contact"> <li><Link to={'/contact'} className="nav-link">Contact</Link></li> </NavItem>
             {/* <li><Link to={'/about'} className="nav-link">About</Link></li> */}
-          </ul>
+          
           </ul>
           </div>
           </nav>
