@@ -1,0 +1,46 @@
+.indexNav {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #393a3b;
+  background-image: url("../pages/bg.jpeg");
+  border-radius: 0.3rem;
+  
+}
+
+.navContent{
+  margin-top: 112px;
+}
+
+.resumebutton {
+    width: 250px;
+    height: 50px;
+    border:none;
+    border:solid 2px rgb(236, 236, 236);
+    border-radius: 5px;
+    background: rgba(255, 255, 255,0);
+    font-size: 25px;
+    color:white;
+
+}
+button:hover {
+  background:black;
+  color:white; 
+}
+
+.text-align-center{
+  text-align: center;
+  color: white;
+  margin: 10px;
+  border: 100px;
+}
+
+.Italic{
+  font-style: italic
+}
+
+.bold{
+  font-style: Bold;
+  font-size: 80px;
+  
+}
+
