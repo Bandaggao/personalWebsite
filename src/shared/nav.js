@@ -8,6 +8,7 @@ import Contact from '../pages/Contact';
 
 
 
+
   
 
 class Nav extends Component {
@@ -49,23 +50,14 @@ class Nav extends Component {
           </ul>
           </div>
           </nav>
-        <div class="indexNav">
-          <div class="navContent">
-           <div>
-             <h2 class="text-align-center Italic">Find Out more about me</h2>
-             <h1 class="text-align-center bold">Dig a Little Deeper</h1>
-           </div> 
-
-           <div>
-         <a href="https://drive.google.com/file/d/1QUH9doHBIubfaFgFeUZM_DN7QjdJrJoP/view"><button type="button" class="resumebutton">Download Resume</button> </a>
-          </div>
-          </div>
-      </div>
+        
           <hr />
           <Switch>
               <Route exact path='/' component={Home} />
               <Route path='/contact' component={Contact} />
               { <Route path='/resume' component={Resume} /> }
+              
+
           </Switch>
         </div>
       </Router>
