@@ -33,7 +33,7 @@ class Nav extends Component {
     <Router>
         <div>
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a className="navbar-brand" href="/">Navbar</a>
+      <a className="navbar-brand" href="/">BAN </a>
       <button className={this.state.toggleShow === true ? "navbar-toggler collapsed" : "navbar-toggler"} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
       aria-expanded={this.state.toggleShow === true ? "true" : "false"} aria-label="Toggle navigation"
         onClick={(e) => {this.showToggle(e)}}>

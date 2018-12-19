@@ -32,6 +32,7 @@ button:hover {
   text-align: center;
   color: white;
   margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
   border: 100px;
 }
 
@@ -42,6 +43,16 @@ button:hover {
 .bold{
   font-style: Bold;
   font-size: 80px;
+}
+
+.headings{
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 40px;
+}
+
+.liFonts{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
   
 }
 
