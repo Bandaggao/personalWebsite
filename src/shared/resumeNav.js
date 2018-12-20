@@ -1,10 +1,6 @@
 
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Home from '../pages/Home';
-import NavItem from './ActiveNavItem'
-import Resume from '../pages/Resume';
-import Contact from '../pages/Contact';
+
 
 
 
@@ -36,7 +32,7 @@ class NavResume extends Component {
 
            <div>
          <a href="https://drive.google.com/file/d/1QUH9doHBIubfaFgFeUZM_DN7QjdJrJoP/view"><button type="button" class="resumebutton">Download Resume</button> </a>
-         <a href="http://localhost:3001/" target="_blank"><button type="button" class="resumebutton">Chat with my bot</button> </a>
+         <a href="http://localhost:3001/" target="_blank" rel="noopener noreferrer"><button type="button" class="resumebutton">Chat with my bot</button> </a>
           </div>
           </div>
       </div>
